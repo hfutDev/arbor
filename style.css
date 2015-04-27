@@ -1,0 +1,148 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  background: url(image/bg.jpg) #299200 no-repeat top;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p, .desc-content-text div {
+  line-height: 20px;
+}
+
+.desc {
+  margin: 550px auto 0;
+  padding: 80px 160px;
+  width: 700px;
+  background: url(image/03.png) no-repeat top;
+  background-size: 75%;
+  position: relative;
+}
+
+.desc-item {
+  width: 100%;
+  height: 34px;
+  padding: 0 10px;
+}
+
+.desc-item li {
+  float: left;
+  width: 18%;
+  line-height: 34px;
+  margin: 0 20px;
+  text-align: center;
+  background: #fff;
+  color: #299200;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.desc-item li.focus {
+  background: #299200;
+  color: #fff;
+}
+
+.desc-content {
+  height: 540px;
+  overflow: auto;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  min-height: 400px;
+  padding: 10px 20px;
+  display: none;
+}
+
+.desc-content.focus {
+  display: block;
+}
+
+.desc-content-img {
+  width: 220px;
+  height: 120px;
+  float: left;
+}
+
+.desc-content-text {
+  margin: 5px 0 0 240px;
+  min-height: 125px;
+  position: relative;
+}
+
+.desc-content-text h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.desc-content-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  color: #299200;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.modal-box {
+  position: relative;
+  width: 600px;
+  padding: 50px;
+  margin: -999px auto 0;
+  background: #fff;
+}
+
+.modal-box-title {
+  font-size: 30px;
+  color: #299200;
+  display: inline-block;
+  padding: 0 100px 10px 0;
+  border-bottom: 2px #299200 solid;
+}
+
+.modal-box-img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal-box-close {
+  position: absolute;
+  color: #299200;
+  font-size: 30px;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.modal-box-content {
+  max-height: 70%;
+  padding: 0 10px;
+  overflow: auto;
+}
+
+footer {
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 70px;
+}
