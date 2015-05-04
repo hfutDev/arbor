@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background: url(image/bg.jpg) #299200 no-repeat top;
+  background: url(bg.jpg) #299200 no-repeat top;
   margin: 0 auto;
   width: 1200px;
 }
@@ -24,7 +24,7 @@ p, .desc-content-text div {
   margin: 550px auto 0;
   padding: 80px 160px;
   width: 700px;
-  background: url(image/03.png) no-repeat top;
+  background: url(03.png) no-repeat top;
   background-size: 75%;
   position: relative;
 }
