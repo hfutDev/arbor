@@ -125,7 +125,7 @@ $(function() {
       content.html(localData[key][index].content);
       $('.modal').show();
       $('.modal-box').animate({
-        'marginTop': 100
+        'marginTop': 50
       }, 500);
     });
     var hide = function() {
@@ -157,3 +157,4 @@ $(function() {
   });
 });
 
+document.getElementsByClassName = undefined;

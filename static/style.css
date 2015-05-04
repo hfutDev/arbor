@@ -135,7 +135,7 @@ p, .desc-content-text div {
 }
 
 .modal-box-content {
-  max-height: 70%;
+  max-height: 400px;
   padding: 0 10px;
   overflow: auto;
 }
